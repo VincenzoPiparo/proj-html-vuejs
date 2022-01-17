@@ -1,5 +1,7 @@
 <template>
-  <header></header>
+  <header>
+    <h1>ESEMPIO</h1>
+  </header>
 </template>
 
 <script>

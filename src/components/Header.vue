@@ -6,6 +6,7 @@
           <img src="../assets/img/logo-2.png" alt="" />
         </div>
         <div class="navbar col-9">
+          <!-- We cycle through the navigation bar each time the page is opened -->
           <div
             :class="element.current ? 'current' : null"
             v-for="(element, index) in type"

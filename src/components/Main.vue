@@ -20,16 +20,22 @@
         </div>
       </div>
       <Marketing />
+      <Analysis />
+      <Features />
     </div>
   </main>
 </template>
 
 <script>
 import Marketing from "./Marketing.vue";
+import Analysis from "./Analysis.vue";
+import Features from "./Features.vue";
 export default {
   name: "Main",
   components: {
     Marketing,
+    Analysis,
+    Features,
   },
 };
 </script>

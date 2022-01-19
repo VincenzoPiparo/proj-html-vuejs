@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="container my_container">
+    <div class="container my_container d-flex justify-content-between">
       <!-- CARD LEFT -->
       <div class="card" style="width: 18rem">
         <img src="../assets/img/19.jpg" class="card-img-top" alt="clock" />
@@ -39,9 +39,8 @@
 </template>
 
 <style lang="scss" scoped>
+@import "../styles/variables";
 .my_container {
-  display: flex;
-  justify-content: space-between;
   margin-top: 150px;
 }
 </style>

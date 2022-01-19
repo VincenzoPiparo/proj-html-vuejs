@@ -37,6 +37,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../styles/variables";
 header {
   margin-top: 20px;
   width: 100%;

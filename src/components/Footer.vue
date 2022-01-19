@@ -14,7 +14,7 @@
     <!-- Section: Social media -->
 
     <!-- Section: Links  -->
-    <section class="">
+    <section>
       <div class="container text-center text-md-start mt-5">
         <!-- Grid row -->
         <div class="row mt-3">
@@ -24,7 +24,7 @@
 
             <img src="../assets/img/35.png" alt="sofbox" />
 
-            <p>
+            <p class="color">
               Here you can use rows and columns to organize your footer content.
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             </p>
@@ -43,20 +43,20 @@
           >
             <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4">{{ element.title }}</h6>
-            <p>
-              <a href="#!" class="text-reset">{{ element.text }}</a>
+            <p class="color">
+              <a href="#" class="text-reset">{{ element.text }}</a>
             </p>
-            <p>
-              <a href="#!" class="text-reset">{{ element.text1 }}</a>
+            <p class="color">
+              <a href="#" class="text-reset">{{ element.text1 }}</a>
             </p>
-            <p>
-              <a href="#!" class="text-reset">{{ element.text2 }}</a>
+            <p class="color">
+              <a href="#" class="text-reset">{{ element.text2 }}</a>
             </p>
-            <p>
-              <a href="#!" class="text-reset">{{ element.text3 }}</a>
+            <p class="color">
+              <a href="#" class="text-reset">{{ element.text3 }}</a>
             </p>
-            <p>
-              <a href="#!" class="text-reset">{{ element.text4 }}</a>
+            <p class="color">
+              <a href="#" class="text-reset">{{ element.text4 }}</a>
             </p>
           </div>
         </div>
@@ -80,8 +80,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.copyright {
-  font-weight: bold;
-  color: #377dff;
+@import "../styles/variables";
+section {
+  .copyright {
+    font-weight: bold;
+    color: #377dff;
+  }
+  .color {
+    color: $prymary_color;
+    a {
+      text-decoration: none;
+    }
+  }
 }
 </style>

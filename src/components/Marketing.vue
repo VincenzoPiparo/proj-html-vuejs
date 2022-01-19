@@ -69,7 +69,11 @@
 </template>
 
 <style lang="scss" scoped>
+@import "../styles/variables";
 section {
+  p {
+    color: $prymary_color;
+  }
   li {
     font-weight: bold;
     i {

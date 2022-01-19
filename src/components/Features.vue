@@ -24,7 +24,11 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
+@import "../styles/variables";
 section {
+  p {
+    color: $prymary_color;
+  }
   .wrapper {
     margin-top: 150px;
   }

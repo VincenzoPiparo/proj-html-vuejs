@@ -13,7 +13,7 @@
             <img src="../assets/img/510.png" alt="statistics" />
             <div class="mx-5">
               <h4 class="px-6">Reporting Analysis</h4>
-              <p class="">
+              <p>
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when at its layout.
               </p>
@@ -41,8 +41,15 @@
 </template>
 
 <style lang="scss" scoped>
+@import "../styles/variables";
 // DARE STILI
 section {
+  span {
+    color: $prymary_color;
+  }
+  p {
+    color: $prymary_color;
+  }
   .wrapper {
     display: flex;
     margin-top: 200px;
